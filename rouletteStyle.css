@@ -1,0 +1,206 @@
+*{
+	user-select:none;	
+	background-color: #F8F8F8;
+	font-family: 'Century Gothic';
+}
+
+#canvas{
+
+    margin-top: -9%;
+}
+
+.outerContainer{
+	width: 100%;
+	padding-top: 25px;
+	margin:auto;		
+	
+}
+
+.canvasContainer{
+	float: left;	
+	width:42%;
+	height:450px;
+}
+
+.bettingContainer{
+	width:54%;
+	float: left;
+	height:90vh;
+	
+}
+
+.chipsContainer{	
+	float:left;
+	margin-top: -1px;
+	width: 45px;
+}
+
+
+
+.chipsContainer li{	
+	color:white;
+	width: 40px;
+	height: 40px;		
+	text-align: center;
+	line-height: 40px;
+	margin: 4px;
+	list-style-type: none;
+	border-radius: 50%;
+	border:1px solid black;
+	font-weight: bold;
+}
+
+.chipsContainer span{
+	width:100%;
+	margin-top: 20px;	
+	text-align: center;   
+}
+
+
+
+
+.chips:hover, .bettingContainer li:hover{	
+	background-color: #F8F8F8 !important;
+	color:gold;	
+}
+
+.outerTable
+{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    text-align: center;
+    width: 75%;
+    margin: auto;
+ 
+}
+
+.outerTable li{
+	height: 29px;
+    color: white;    
+    font-size: x-large;    
+    padding-top: 10px;    
+    list-style-type: none;
+    border: 1px solid black;
+    position: relative;
+    z-index: 100;
+}
+
+.innerNumbers{
+	flex-basis: 33%;           
+    
+}
+
+#numbers_40,#numbers_41,#numbers_42,#numbers_43,#numbers_44,#numbers_45,#numbers_46{
+	flex-basis: 16.33%;
+
+}
+
+
+#numbers_0
+{
+    flex-basis: 100%;    
+}
+
+.gambleContainer{
+    width: 100%;    		
+    margin-top: 7%;
+    height:167px;
+	margin-left: 7px;
+	text-align: center;
+	
+}
+
+.betTable th, .betTable td {
+  border: 1px solid black;
+}
+
+.betTable{
+    position: absolute;    
+    margin-bottom: 100px;
+    list-style-type: none;
+    z-index: 100;
+    margin-top:11px;
+
+}
+
+.betAppend{
+	width: 25px;	
+    height: 25px;
+    line-height: 25px;
+    background-color: white;
+    color: white;
+    position: absolute;
+    margin-top: -14px;
+    border-radius: 50%;
+    z-index: 0 !important;   
+    font-size: 20px;
+    border:1px solid black;
+}
+
+#recentNumbers{
+	list-style-type: none;
+}
+
+.recentWinningCls{
+	font-size:20px;
+	color:white;	
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-top:25px;
+    float: left;
+}
+
+.active{
+	background-color: white !important;
+	color: gold !important;
+}
+
+.percent50{
+	float:right;
+	background-color: blue !important;
+
+}
+
+
+
+.pulseTextCls {
+  animation: pulse 1s alternate infinite;
+  -webkit-animation: pulse 1s alternate infinite;
+}
+@keyframes pulse {
+  from {opacity:1}
+  to {opacity:0}
+}
+@-webkit-keyframes pulse {
+  from {opacity:1}
+  to {opacity:0}
+}
+
+
+.linksRegion{
+	position: relative;
+	width:90%;
+	height:10px;	
+	margin-left: 2%;
+}
+
+.innerLinksRegion{
+	float: left;
+}
+
+.innerLinksRegion span{
+	    font-size: 30px;
+    padding-top: 5px;
+    background-color: #F8F8F8;
+    color: black;
+}
+
+
+.innerLinksRegion span:hover{
+	color: gold !important;
+	background-color: #F8F8F8;
+}
